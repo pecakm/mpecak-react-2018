@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from 'react';
 
-export class ContactContent extends React.Component {
+export class ContactContent extends Component {
     constructor() {
         super();
         this.state = {

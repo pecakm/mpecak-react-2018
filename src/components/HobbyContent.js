@@ -1,6 +1,12 @@
-import React from "react";
+import React, { Component } from 'react';
+import slider1 from '../img/slider1.jpg';
+import slider2 from '../img/slider2.jpg';
+import slider3 from '../img/slider3.jpg';
+import slider4 from '../img/slider4.jpg';
+import slider5 from '../img/slider5.jpg';
+import slider6 from '../img/slider6.jpg';
 
-export class HobbyContent extends React.Component {
+export class HobbyContent extends Component {
     render() {
         return (
             <div className="container-fluid pageContent">
@@ -18,22 +24,22 @@ export class HobbyContent extends React.Component {
                     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="d-block w-100" src="../../img/slider1.jpg" alt="karting1"/>
+                                <img className="d-block w-100" src={slider1} alt="karting1"/>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src="../../img/slider2.jpg" alt="karting2"/>
+                                <img className="d-block w-100" src={slider2} alt="karting2"/>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src="../../img/slider3.jpg" alt="karting3"/>
+                                <img className="d-block w-100" src={slider3} alt="karting3"/>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src="../../img/slider4.jpg" alt="karting4"/>
+                                <img className="d-block w-100" src={slider4} alt="karting4"/>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src="../../img/slider5.jpg" alt="karting5"/>
+                                <img className="d-block w-100" src={slider5} alt="karting5"/>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src="../../img/slider6.jpg" alt="karting6"/>
+                                <img className="d-block w-100" src={slider6} alt="karting6"/>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

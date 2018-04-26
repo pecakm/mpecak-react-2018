@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from 'react';
 
-export class CVContent extends React.Component {
+export class CVContent extends Component {
     render() {
         return (
             <div className="container-fluid pageContent">
