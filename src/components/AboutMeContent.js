@@ -9,7 +9,7 @@ export class AboutMeContent extends Component {
                     <div className="col-md imageDiv">
                         <img src={me} className="img-fluid" alt="Me" />
                     </div>
-                    <div className="col-md aboutMeText">
+                    <div className="col-md aboutMeText justified">
                         <p>
                             Cześć, nazywam się Mikołaj Pęcak i jestem studentem informatyki na poznańskiej uczelni Collegium Da Vinci. Jestem początkującym programistą, z wielką pasją spełniam się w moich zainteresowaniach, z którymi wiążę plany na przyszłość. Najbardziej chciałbym rozwijać się w kierunku programowania <b>aplikacji internetowych oraz mobilnych</b>.
                         </p>

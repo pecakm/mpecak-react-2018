@@ -2,7 +2,6 @@ body {
   background-color: #fdffff;
   color: #555555;
   letter-spacing: 1px;
-  text-align: justify;
 }
 
 button:focus {
@@ -46,6 +45,10 @@ a:hover {
 .pageHeader {
   padding-top: 20px;
   font-size: 28px;
+}
+
+.justified {
+  text-align: justify;
 }
 
 .imageDiv {

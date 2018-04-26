@@ -15,7 +15,7 @@ export class HobbyContent extends Component {
                 </div>
                 <hr/>
                 <div>
-                    <div className="section">
+                    <div className="section justified">
                         <span className="sectionHeader">Karting</span>
                         <p>
                             Moją największą pasją i jedynym uzależnieniem jest karting. Zacząłem rozwijać się w tej dyscyplinie w wieku 9 lat. Przez prawie 10 lat czynnie uprawiałem sport kartingowy na poziomie ogólnopolskim, europejskim oraz światowym. Po zakończonej karierze sportowej rozwijałem się dalej jako inżynier wyścigowy, mechanik, trener.
