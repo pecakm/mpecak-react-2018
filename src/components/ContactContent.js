@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { CSSTransitionGroup } from 'react-transition-group';
 import axios from 'axios';
+import qs from 'qs';
 
 export class ContactContent extends Component {
     constructor() {
@@ -21,12 +22,21 @@ export class ContactContent extends Component {
     }
 
     onSubmit(event) {
-        event.preventDefault();
-        const { email, title, message } = this.state;
-        axios.post('http://localhost/api/send.php', { email, title, message })
-        .then((result) => {
-            console.log(result.data);
-        });
+        if (this.state.email !== "" && this.state.title !== "" && this.state.message !== "") {
+            event.preventDefault();
+            const data = this.state;
+            axios.post(
+                "http://localhost/api/send.php",
+                qs.stringify(data),
+                {headers: { 'content-type': 'application/x-www-form-urlencoded' }}
+            )
+            .then((result) => {
+                console.log(result.data);
+            });
+        } else {
+            event.preventDefault();
+            console.log("Pusty email");
+        }
     }
 
     render() {
@@ -68,7 +78,7 @@ export class ContactContent extends Component {
                                 <div className="form-group">
                                     <textarea className="form-control" rows="10" placeholder="Treść wiadomości" value={this.state.message} onChange={(event) => this.onChange(event)} name="message"></textarea>
                                 </div>
-                                <button onClick={this.validate} type="submit" className="btn btn-primary formButton">Wyślij</button>
+                                <button type="submit" className="btn btn-primary formButton">Wyślij</button>
                             </form>
                         </div>
                     </div>
