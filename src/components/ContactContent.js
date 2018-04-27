@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { CSSTransitionGroup } from 'react-transition-group';
+import axios from 'axios';
 
 export class ContactContent extends Component {
     constructor() {
@@ -22,10 +23,10 @@ export class ContactContent extends Component {
     onSubmit(event) {
         event.preventDefault();
         const { email, title, message } = this.state;
-        // axios.post('/', { fname, lname, email })
-        //   .then((result) => {
-        //     //access the results here....
-        //   });
+        axios.post('http://localhost/api/send.php', { email, title, message })
+        .then((result) => {
+            console.log(result.data);
+        });
     }
 
     render() {
