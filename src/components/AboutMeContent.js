@@ -16,7 +16,7 @@ export const AboutMeContent = () => {
                         Dzięki pracowitości oraz determinacji nabytej podczas wielu lat kariery sportowej bardzo szybko czynię postępy w trudnej dziedzinie programowania. Osiągając kolejne kamienie milowe, które sobie wyznaczam, z każdym dniem jestem coraz lepszym programistą. Wierzę, że ciężka praca nad sobą popłaca, a małymi krokami dochodzi się do spektakularnych efektów.
                     </p>
                     <p>
-                        Zapraszam do zapoznania się z moją osobą na tej stronie oraz na profilu <a href="https://pl.linkedin.com/in/miko%C5%82aj-p%C4%99cak-1649a612b" target="_blank">LinkedIn</a>.
+                        Zapraszam do zapoznania się z moją osobą na tej stronie oraz na profilu <a href="https://pl.linkedin.com/in/miko%C5%82aj-p%C4%99cak-1649a612b" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
                     </p>
                 </div>
             </div>

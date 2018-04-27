@@ -10,16 +10,16 @@ export const ProjectsContent = () => {
             <div>
                 <div className="section">
                     <p>
-                        &rArr; Strona internetowa <a href="http://mpecak.pl" target="_blank">mpecak.pl</a>
+                        &rArr; Strona internetowa <a href="http://mpecak.pl" target="_blank" rel="noopener noreferrer">mpecak.pl</a>
                     </p>
                     <p>
-                        &rArr; Aplikacja internetowa <a href="http://mpecak.pl/dailynote" target="_blank">mpecak.pl/dailynote</a>
+                        &rArr; Aplikacja internetowa <a href="http://mpecak.pl/dailynote" target="_blank" rel="noopener noreferrer">mpecak.pl/dailynote</a>
                     </p>
                     <p>
-                        &rArr; Strona internetowa <a href="http://szukamodpowiedzi.pl" target="_blank">szukamodpowiedzi.pl</a>
+                        &rArr; Strona internetowa <a href="http://szukamodpowiedzi.pl" target="_blank" rel="noopener noreferrer">szukamodpowiedzi.pl</a>
                     </p>
                     <p>
-                        &rArr; Gra przeglądarkowa <a href="http://mpecak.pl/pushthebutton" target="_blank">"Push The Button"</a>
+                        &rArr; Gra przeglądarkowa <a href="http://mpecak.pl/pushthebutton" target="_blank" rel="noopener noreferrer">"Push The Button"</a>
                     </p>
                 </div>
                 <div className="section">

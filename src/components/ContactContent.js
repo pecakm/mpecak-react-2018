@@ -43,7 +43,7 @@ export class ContactContent extends Component {
                             Nr tel: <b>+48 514 686 478</b>
                         </p>
                         <p>
-                            Zapraszam również na mój profil w portalu <a href="https://pl.linkedin.com/in/miko%C5%82aj-p%C4%99cak-1649a612b" target="_blank">LinkedIn</a>.
+                            Zapraszam również na mój profil w portalu <a href="https://pl.linkedin.com/in/miko%C5%82aj-p%C4%99cak-1649a612b" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
                         </p>
                     </div>
                     <div className="section">
