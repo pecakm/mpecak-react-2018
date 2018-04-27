@@ -38,6 +38,15 @@ a:hover {
   max-width: 640px;
 }
 
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
 .pageContent {
   max-width: 640px;
 }
