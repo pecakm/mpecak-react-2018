@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export class Navbar extends Component {
-    render() {
+export const Navbar = () => {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light siteNavigation">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,5 +18,4 @@ export class Navbar extends Component {
                 </div>
             </nav>
         );
-    }
 }
