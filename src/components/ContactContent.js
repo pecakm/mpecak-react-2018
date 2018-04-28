@@ -34,7 +34,7 @@ export class ContactContent extends Component {
                 message: this.state.message
             };
             axios.post(
-                "http://localhost/api/send.php",
+                "http://mpecak.pl/api/send.php",
                 qs.stringify(data),
                 {headers: { 'content-type': 'application/x-www-form-urlencoded' }}
             )
