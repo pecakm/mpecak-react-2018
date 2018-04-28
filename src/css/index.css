@@ -111,6 +111,10 @@ a:hover {
   border-color: #7eb8cb;
 }
 
+.alert {
+  margin-top: 20px;
+}
+
 /* On screens that are 768px or less, set the background color to blue */
 @media screen and (max-width: 768px) {
   .imageDiv, .aboutMeText {

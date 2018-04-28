@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { CSSTransitionGroup } from 'react-transition-group';
 import axios from 'axios';
 import qs from 'qs';
+import { FormAlert } from './FormAlert';
 
 export class ContactContent extends Component {
     constructor() {
@@ -9,7 +10,10 @@ export class ContactContent extends Component {
         this.state = {
             email: "",
             title: "",
-            message: ""
+            message: "",
+            hideAlert: true,
+            alertClass: "alert alert-danger",
+            alertText: ""
         };
     }
 
@@ -24,18 +28,42 @@ export class ContactContent extends Component {
     onSubmit(event) {
         if (this.state.email !== "" && this.state.title !== "" && this.state.message !== "") {
             event.preventDefault();
-            const data = this.state;
+            const data = {
+                email: this.state.email,
+                title: this.state.title,
+                message: this.state.message
+            };
             axios.post(
                 "http://localhost/api/send.php",
                 qs.stringify(data),
                 {headers: { 'content-type': 'application/x-www-form-urlencoded' }}
             )
             .then((result) => {
-                console.log(result.data);
+                if (result.status === 200) {
+                    this.setState({
+                        hideAlert: false,
+                        alertClass: "alert alert-success",
+                        alertText: "Wiadomość wysłana. Postaram się odpisać w najbliższym czasie."
+                    });
+                } else {
+                    this.setState({
+                        hideAlert: false,
+                        alertText: "Coś poszło nie tak. Spróbuj ponownie później."
+                    });
+                }
+            })
+            .catch(function (error) {
+                this.setState({
+                    hideAlert: false,
+                    alertText: "Coś poszło nie tak. Spróbuj ponownie później."
+                });
             });
         } else {
             event.preventDefault();
-            console.log("Pusty email");
+            this.setState({
+                hideAlert: false,
+                alertText: "Wypełnij wszystkie pola."
+            });
         }
     }
 
@@ -79,6 +107,7 @@ export class ContactContent extends Component {
                                     <textarea className="form-control" rows="10" placeholder="Treść wiadomości" value={this.state.message} onChange={(event) => this.onChange(event)} name="message"></textarea>
                                 </div>
                                 <button type="submit" className="btn btn-primary formButton">Wyślij</button>
+                                <FormAlert hide={this.state.hideAlert} class={this.state.alertClass} text={this.state.alertText}/>
                             </form>
                         </div>
                     </div>
