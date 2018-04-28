@@ -15,49 +15,22 @@ export const CVContent = () => {
                 </div>
                 <hr/>
                 <div>
-                    <div className="section">
-                        <span className="sectionHeader">Znajomość technologii:</span>
-                        <p>
-                            Programowanie obiektowe (podstawy)<br/>
-                            C++ (podstawy)<br/>
-                            JavaScript (podstawy)<br/>
-                            HTML5<br/>
-                            CSS3<br/>
-                            Angular2 (podstawy)<br/>
-                            Ruby on Rails (podstawy)<br/>
-                            GIT<br/>
-                            WordPress<br/>
-                            Joomla!<br/>
-                            Pascal<br/>
-                            Microsoft Office<br/>
-                            Social media
-                        </p>
-                    </div>
-                    <div className="section">
-                        <span className="sectionHeader">Znajomość języków obcych:</span>
-                        <p>
-                            Język angielski: poziom B2/C1 (zaawansowany)
-                        </p>
-                    </div>
-                    <div className="section">
-                        <span className="sectionHeader">Wykształcenie:</span>
-                        <p>
-                            <b>październik 2016 - obecnie<br/>
-                            Collegium Da Vinci</b><br/>
-                            Kierunek: informatyka, studia inżynierskie<br/>
-                            Specjalizacja: Aplikacje internetowe i mobilne<br/>
-                            Poziom wykształcenia: inżynier
-                        </p>
-                        <p>
-                            <b>wrzesień 2011 - czerwiec 2016<br/>
-                            Uniwersytet Ekonomiczny w Poznaniu</b><br/>
-                            Kierunek: zarządzanie<br/>
-                            Specjalizacja: zarządzanie przedsiębiorstwami<br/>
-                            Poziom wykształcenia: licencjat
-                        </p>
-                    </div>
-                    <div className="section">
+                <div className="section">
                         <span className="sectionHeader">Doświadczenie zawodowe:</span>
+                        <p>
+                            <b>maj 2018 - obecnie<br/>
+                            Właściciel (CEO)</b><br/>
+                            IT Pulse<br/>
+                            Krótki opis stanowiska:<br/>
+                            Zarządzanie firmą tworzącą rozwiązania wykorzystujące technologię internetową
+                        </p>
+                        <p>
+                            <b>czerwiec 2017 - luty 2018<br/>
+                            iOS Developer</b><br/>
+                            Mood Up Sp. z o.o.<br/>
+                            Krótki opis stanowiska:<br/>
+                            Tworzenie oraz rozwijanie aplikacji mobilnych na urządzenia z systemem iOS
+                        </p>
                         <p>
                             <b>listopad 2016<br/>
                             Przedstawiciel na Międzynarodowych Targach Poznańskich</b><br/>
@@ -85,6 +58,49 @@ export const CVContent = () => {
                             Interbell Sp. z o.o.<br/>
                             Krótki opis stanowiska:<br/>
                             Obsługa klienta w serwisie telefonów komórkowych, pomoc w dziale księgowości, prowadzenie profilu firmy na portalu Facebook
+                        </p>
+                    </div>
+                    <div className="section">
+                        <span className="sectionHeader">Znajomość technologii:</span>
+                        <p>
+                            Programowanie obiektowe<br/>
+                            React JS<br/>
+                            Angular 2 (podstawy)<br/>
+                            PHP Symfony 4<br/>
+                            HTML5<br/>
+                            CSS3<br/>
+                            jQuery<br/>
+                            GIT<br/>
+                            WordPress<br/>
+                            Joomla!<br/>
+                            C++ (podstawy)<br/>
+                            C# (podstawy)<br/>
+                            Pascal<br/>
+                            Microsoft Office<br/>
+                            Social media
+                        </p>
+                    </div>
+                    <div className="section">
+                        <span className="sectionHeader">Znajomość języków obcych:</span>
+                        <p>
+                            Język angielski: poziom B2/C1 (zaawansowany)
+                        </p>
+                    </div>
+                    <div className="section">
+                        <span className="sectionHeader">Wykształcenie:</span>
+                        <p>
+                            <b>październik 2016 - obecnie<br/>
+                            Collegium Da Vinci</b><br/>
+                            Kierunek: informatyka, studia inżynierskie<br/>
+                            Specjalizacja: Aplikacje internetowe i mobilne<br/>
+                            Poziom wykształcenia: inżynier
+                        </p>
+                        <p>
+                            <b>wrzesień 2011 - czerwiec 2016<br/>
+                            Uniwersytet Ekonomiczny w Poznaniu</b><br/>
+                            Kierunek: zarządzanie<br/>
+                            Specjalizacja: zarządzanie przedsiębiorstwami<br/>
+                            Poziom wykształcenia: licencjat
                         </p>
                     </div>
                     <div className="section">
