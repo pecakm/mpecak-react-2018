@@ -4,11 +4,11 @@
     $from = $_POST["email"];
     $title = $_POST["title"];
     $message = $_POST["message"];
-    $message = "Wiadomość z mpecak.pl:\n\n".$message;
-    $from  = "From: ".$from." \r\n";
+    $message = "Wiadomość z mpecak.pl od: ".$from."\n\n".$message;
+    $from  = "From: mpecak@mpecak.pl \r\n";
     $from .= "MIME-Version: 1.0\r\n";
     $from .= "Content-type: text/html; charset=utf-8\r\n";
-    $receiver = "mikolajpecak@gmail.com";
+    $receiver = "mikolajpecak@itpulse.pl";
 
     if (mail($receiver, $title, $message, $from)) {
         $data = "OK";

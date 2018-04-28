@@ -48,6 +48,7 @@ export class ContactContent extends Component {
                 } else {
                     this.setState({
                         hideAlert: false,
+                        alertClass: "alert alert-danger",
                         alertText: "Coś poszło nie tak. Spróbuj ponownie później."
                     });
                 }
@@ -55,6 +56,7 @@ export class ContactContent extends Component {
             .catch(function (error) {
                 this.setState({
                     hideAlert: false,
+                    alertClass: "alert alert-danger",
                     alertText: "Coś poszło nie tak. Spróbuj ponownie później."
                 });
             });
