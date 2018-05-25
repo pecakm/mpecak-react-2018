@@ -85,7 +85,7 @@ export class ContactContent extends Component {
                     <div>
                         <div className="section">
                             <p>
-                                E-mail: <a href="mailto: mikolajpecak@itpulse.pl">mikolajpecak@itpulse.pl</a>
+                                E-mail: <a href="mailto: office@itpulse.pl">office@itpulse.pl</a>
                             </p>
                             <p>
                                 Nr tel: <b>+48 514 686 478</b>

@@ -20,6 +20,9 @@ export const ProjectsContent = () => {
                             &rArr; Strona internetowa <a href="http://mpecak.pl" target="_blank" rel="noopener noreferrer">mpecak.pl</a>
                         </p>
                         <p>
+                            &rArr; Strona internetowa kierowcy wyścigowego <a href="http://www.bernacik.pl" target="_blank" rel="noopener noreferrer">www.bernacik.pl</a>
+                        </p>
+                        <p>
                             &rArr; Aplikacja internetowa <a href="http://mpecak.pl/dailynote/index.html" target="_blank" rel="noopener noreferrer">mpecak.pl/dailynote</a>
                         </p>
                         <p>
