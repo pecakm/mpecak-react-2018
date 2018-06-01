@@ -6,7 +6,7 @@
     $from  = "From: mpecak@mpecak.pl \r\n";
     $from .= "MIME-Version: 1.0\r\n";
     $from .= "Content-type: text/html; charset=utf-8\r\n";
-    $receiver = "office@itpulse.pl";
+    $receiver = "mikolajpecak@itpulse.pl";
 
     if (mail($receiver, $title, $message, $from)) {
         $data = "OK";
