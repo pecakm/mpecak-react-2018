@@ -35,6 +35,9 @@ export const ProjectsContent = () => {
                     <div className="section">
                         Już niedługo pojawi się tutaj kolejny projekt... ;)
                     </div>
+                    <div className="section">
+                        &rArr; Kody źródłowe niektórych aplikacji udostępniam na moim <a href="https://bitbucket.org/pecakm/" target="_blank" rel="noopener noreferrer">koncie BitBucket</a>
+                    </div>
                 </div>
             </CSSTransitionGroup>
         </div>
