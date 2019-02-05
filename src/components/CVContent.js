@@ -17,24 +17,26 @@ export const CVContent = () => {
                 <div className="section">
                     <span className="sectionHeader">Znajomość technologii:</span>
                     <p>
-                        ReactJS<br/>
-                        Node.js (Express)<br/>
+                        Angular 6 (podstawy)<br/>
+                        ReactJS (podstawy)<br/>
+                        Node.js/Express.js<br/>
+                        MongoDB<br/>
                         Swift, Objective-C<br/>
                         PHP Symfony 4<br/>
-                        Inne: GIT, jQuery, podstawy SQL i MongoDB, WordPress
+                        Inne: GIT, jQuery, podstawy SQL, WordPress
                     </p>
                 </div>
                 <div className="section">
                     <span className="sectionHeader">Doświadczenie zawodowe:</span>
                     <p>
                         <b>maj 2018 - obecnie<br/>
-                        Właściciel (CEO)</b><br/>
+                        Freelancer - właściciel marki</b><br/>
                         IT Pulse<br/>
                         Krótki opis stanowiska:<br/>
-                        Zarządzanie firmą tworzącą rozwiązania wykorzystujące technologię internetową
+                        Tworzenie rozwiązań wykorzystujących technologię internetową
                     </p>
                     <p>
-                        <b>czerwiec 2017 - luty 2018<br/>
+                        <b>czerwiec 2017 - wrzesień 2018<br/>
                         iOS Developer</b><br/>
                         Mood Up Sp. z o.o.<br/>
                         Krótki opis stanowiska:<br/>
@@ -72,7 +74,7 @@ export const CVContent = () => {
                 <div className="section">
                     <span className="sectionHeader">Znajomość języków obcych:</span>
                     <p>
-                        Język angielski: poziom B2/C1 (zaawansowany)
+                        Język angielski: poziom B2
                     </p>
                 </div>
                 <div className="section">
@@ -95,16 +97,22 @@ export const CVContent = () => {
                 <div className="section">
                     <span className="sectionHeader">Organizacje, aktywności i stowarzyszenia:</span>
                     <p>
-                        <b>styczeń 2017 - czerwiec 2017<br/>
+                        <b>wrzesień 2018 - obecnie<br/>
                         Collegium Da Vinci</b><br/>
                         Dodatkowe informacje:<br/>
-                        Czynna pomoc przy tworzeniu start-upowego projektu aplikacji internetowej (wykorzystanie technologii Ruby on Rails oraz Angular2)
+                        Członek komisji dyscyplinarnej CDV
                     </p>
                     <p>
                         <b>czerwiec 2002 - obecnie<br/>
                         Automobilklub Leszczyński</b><br/>
                         Dodatkowe informacje:<br/>
                         Członek Automobilklubu Leszczyńskiego, członek Kadry Narodowej Polskiego Związku Motorowego w Sporcie Kartingowym w latach 2005 - 2010
+                    </p>
+                    <p>
+                        <b>styczeń 2017 - czerwiec 2017<br/>
+                        Collegium Da Vinci</b><br/>
+                        Dodatkowe informacje:<br/>
+                        Czynna pomoc przy tworzeniu start-upowego projektu aplikacji internetowej (wykorzystanie technologii Ruby on Rails oraz Angular2)
                     </p>
                 </div>
                 <div className="section">
