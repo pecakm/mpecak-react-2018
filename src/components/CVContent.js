@@ -15,19 +15,14 @@ export const CVContent = () => {
                 </div>
                 <hr/>
                 <div className="section">
-                    <span className="sectionHeader">Znajomość technologii:</span>
-                    <p>
-                        Angular 6 (podstawy)<br/>
-                        ReactJS (podstawy)<br/>
-                        Node.js/Express.js<br/>
-                        MongoDB<br/>
-                        Swift, Objective-C<br/>
-                        PHP Symfony 4<br/>
-                        Inne: GIT, jQuery, podstawy SQL, WordPress
-                    </p>
-                </div>
-                <div className="section">
                     <span className="sectionHeader">Doświadczenie zawodowe:</span>
+                    <p>
+                        <b>luty 2019 - obecnie<br/>
+                        Frontend Developer</b><br/>
+                        MUG - Creative Software House<br/>
+                        Krótki opis stanowiska:<br/>
+                        Tworzenie aplikacji internetowych w oparciu o technologie frontendowe
+                    </p>
                     <p>
                         <b>maj 2018 - obecnie<br/>
                         Freelancer - właściciel marki</b><br/>
@@ -69,6 +64,17 @@ export const CVContent = () => {
                         Interbell Sp. z o.o.<br/>
                         Krótki opis stanowiska:<br/>
                         Obsługa klienta w serwisie telefonów komórkowych, pomoc w dziale księgowości, prowadzenie profilu firmy na portalu Facebook
+                    </p>
+                </div>
+                <div className="section">
+                    <span className="sectionHeader">Znajomość technologii:</span>
+                    <p>
+                        ReactJS<br/>
+                        Angular 6 (podstawy)<br/>
+                        Node.js/Express.js (podstawy)<br/>
+                        MongoDB<br/>
+                        Swift, Objective-C<br/>
+                        Inne: GIT, jQuery, podstawy SQL, WordPress, Jira
                     </p>
                 </div>
                 <div className="section">
